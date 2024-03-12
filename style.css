@@ -1,4 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-	background-color: #e5e7eb;
-	font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-signup {
+  background-color: #f2f2f2cc;
+  width: 514px;
+  height: 714px;
+
+  border-radius: 10px;
+}
+
+@media (max-width: 720px) {
+  .container-signup {
+    width: 350px;
+    height: 614px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container-signup {
+    width: 314px;
+    height: 514px;
+  }
 }
