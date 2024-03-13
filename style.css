@@ -1,4 +1,6 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+HK:wght@100..900&display=swap") * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,6 +13,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Bree Serif", serif;
 }
 
 .container-main {
@@ -26,6 +32,26 @@ body {
   height: 714px;
 
   border-radius: 10px;
+
+  font-family: "Noto Sans HK", sans-serif;
+  font-weight: 500;
+}
+
+.logo-styles {
+  width: 150px;
+}
+
+.signup-styles {
+  font-size: 60px;
+}
+
+.button-styles {
+  height: 100px;
+}
+
+.submit-button-styles {
+  border: none;
+  padding: 5px 8px 5px 8px;
 }
 
 @media (max-width: 720px) {
@@ -33,11 +59,23 @@ body {
     width: 350px;
     height: 614px;
   }
+  .logo-styles {
+    width: 100px;
+  }
+  .signup-styles {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 390px) {
   .container-signup {
     width: 314px;
     height: 514px;
+  }
+  .logo-styles {
+    width: 100px;
+  }
+  .signup-styles {
+    font-size: 40px;
   }
 }
