@@ -44,6 +44,12 @@ I did this project so I could practice HTML5, CSS, Bootstrap
     </form>
 ```
 
+### Future Update:
+
+03/14/24:
+
+- Minor submit button bugs - appears outside of the container.
+
 - Booststrap form.
 
 ## Author
